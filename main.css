@@ -75,7 +75,7 @@ body{
 .home::before{
     content: "";
     /* background-image: url(m1.jpg); */
-    background: url(m1.jpg) no-repeat center center/cover;
+    background: url(images/m1.jpg) no-repeat center center/cover;
     /* background-repeat: no-repeat;
     background-position: center;
     background-size: cover; */
