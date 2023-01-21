@@ -8,15 +8,16 @@
     margin: 0;
 }
 
+
 /* HOME */
-.home{
-height: 280px;
+#home{
+height: 60vh;
 padding: 3px 54px;
 }
-.home::before{
-    height: 340px;
+#home::before{
+    height: 68vh;
     }
-.home p{
+#home p{
     font-size: 13px;
 }
 /* SERVICESS */
@@ -31,19 +32,39 @@ height: 103px;
 }
 
 /* CLIENT */
-#client{
-
+.clients{
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    margin-bottom: 50px;
+}
+#client-section::before{
+    height: 154vh;
+   }
+#client-section {
+    height: 147vh;
+}
+.client-item{
+    margin: 30px;
+    padding: 34px 20px;
+    background-color: rgb(252, 230, 230);
+    height: 210px;
+    width: 49%;
+}
+.clients img{
+    height: 120px;
 }
 
-.clients{
+/* .clients{
     overflow: hidden;
 
-}
+} */
 
 
 
 /* CONTACT */
-.contact{
+#contact{
     padding-top: 15px;
 }
 
